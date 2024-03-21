@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "location": {
+        "value": "eastus"
+      },
+      "rgName": {
+        "value": "myResourceGroup"
+      },
+      "vnetName": {
+        "value": "myVnet"
+      },
+      "subnetName": {
+        "value": "webSubnet"
+      },
+      "vmName": {
+        "value": "myVm"
+      },
+      "vmSize": {
+        "value": "Standard_B1s"
+      },
+      "adminUserName": {
+        "value": "adminUser"
+      },
+      "adminPassword": {
+        "value": "adminPassword123!"
+      },
+      "dbServerName": {
+        "value": "mySqlServer20240320"
+      },
+      "dbName": {
+        "value": "myDatabase"
+      },
+      "storageAccountName": {
+        "value": "mystorageaccount20240320"
+      }
+    }
+  }
+  
